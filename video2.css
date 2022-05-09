@@ -1,0 +1,176 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Assets5/godzilla_verticle.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo
+{
+
+    width: 150px;
+    margin-top: 18px;
+
+}
+
+.header
+{
+
+    height: 10%;
+
+}
+
+.header-btn
+{
+
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float: right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight:600;
+
+}
+
+.search-btn
+{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 100px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    color: #fff !important;
+    border: 1px solid #fff!important;
+    background: transparent!important;
+    font-weight:600;
+}
+
+.movie-details
+{
+    margin: 3% 0;
+}
+
+.left-box
+{
+   color: #fff; 
+   margin: 15px 0;
+   padding: 20px;
+}
+
+.casting img
+{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.left-box a
+{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight:600;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.adl
+{
+  border: 1px solid #fff!important;
+  background: transparent!important;
+}
+
+.far
+{
+    margin: 0 5px;
+}
+
+.fas
+{
+    margin: 0 5px;
+}
+
+.movie-img
+{
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+
+.series h3
+{
+    color: #fff;
+}
+
+.series img
+{
+    height: 250px;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.series img:hover{
+    transform: translateY(-10px);
+}
+
+.movie-logo
+{
+    height: 50px;
+}
+
+.dropbtn 
+{
+    background-color: #107afd;
+    color: white!important;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    padding: 7px 12px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropbtn { background-color: #107afd; }
+  

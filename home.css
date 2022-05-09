@@ -1,0 +1,144 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img 
+{
+    cursor: pointer;
+}
+
+body
+{
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Assets/free_guy_verticle.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.flex-div
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+
+    width: 150px;
+    margin-top: 18px;
+
+}
+
+.header
+{
+
+    height: 10%;
+
+}
+
+.header-btn
+{
+
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float: right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight:600;
+
+}
+
+.search-btn
+{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 7px 100px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    color: #fff !important;
+    border: 1px solid #fff!important;
+    background: transparent!important;
+    font-weight:600;
+}
+
+.far
+{
+    margin: 0 5px;
+}
+
+.fas
+{
+    margin: 0 5px;
+}
+
+.container-banner
+{
+    background: transparent;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.banner
+{
+    width: 100%;
+}
+
+.banner img
+{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.series h3
+{
+    color: #fff;
+}
+
+.series img
+{
+    height: 250px;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.series img:hover{
+    transform: translateY(-10px);
+}
+
+.series2 h3
+{
+    margin-top: 15px;
+    color: #fff;
+}
+
+.series2 img
+{
+    height: 250px;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.series2 img:hover{
+    transform: translateY(-10px);
+}
+

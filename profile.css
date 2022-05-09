@@ -1,0 +1,62 @@
+.logo
+{
+
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 615px;
+    margin-bottom: 20px;
+
+}
+.picture
+{
+    background-position: center;  
+}
+.pic
+{
+    background-image:url(image.svg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:100%;
+    width:100%
+}
+
+body
+{
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Assets3/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.button0
+{
+    width:35px;
+    height:35px
+}
+p
+{
+    color:white;
+    font-size: 20px;
+    font-family:sans-serif;
+    text-align: center;
+}
+img
+{
+    margin-left: 680px;
+    margin-bottom: 5px;
+}
+.button1
+{
+    margin-left: 600;
+    background-color:hsl(333, 6%, 34%);
+    color:white;
+    font-size: 18;
+    font-family:cursive;
+    height:40px;
+    width:300px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}

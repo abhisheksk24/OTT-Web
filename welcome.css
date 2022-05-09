@@ -1,0 +1,106 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img 
+{
+    cursor: pointer;
+}
+
+body
+{
+
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Assets3/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo
+{
+
+    width: 300px;
+    margin-top: 20px;
+
+}
+
+.header-btn
+{
+
+   border: 1px solid #fff!important;
+   background: transparent!important;
+   text-decoration: none;
+   color: #fff !important;
+
+    border-radius: 10px;
+    padding: 7px 40px;
+
+    margin-top: 30px;
+    float: right;
+
+}
+
+.help-btn
+{
+  border: 1px solid #fff!important;
+  background: transparent!important;
+  text-decoration: none;
+  color: #fff !important;
+
+  border-radius: 10px;
+  padding: 7px 40px;
+
+  margin-top: 30px;
+  float: left;
+}
+
+.far
+{
+    margin: 0 5px;
+}
+
+p
+{
+    color:aliceblue;
+    text-align:left;
+    font-size:25px;
+}
+
+.foot
+{
+    color:rgb(252, 252, 252);
+    font-size: 40px;
+    text-align:center;
+    position:fixed; 
+    bottom:0px; 
+    width:100%;
+    text-align:center;
+    margin-bottom: 150px;
+}
+
+.sign
+{
+  text-decoration: none;
+  color: #fff !important;
+  background: #107afd;
+  font-weight:600;
+
+  border-radius: 10px;
+  padding: 7px 60px;
+
+  margin-bottom: 50px;
+  position:fixed; 
+  bottom:0px;
+  align-items: center;
+  margin-left: 675px;
+}
